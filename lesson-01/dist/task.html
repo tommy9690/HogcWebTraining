@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://use.typekit.net/jne6owq.css" rel="stylesheet" />
+  <link href="https://use.typekit.net/ysl7mjk.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/6f16ae1eee.js" crossorigin="anonymous"></script>
+
+  <style>
+    body {
+      /* font-family: proxima-nova, sans-serif; */
+      font-family: aktiv-grotesk, sans-serif;
+    }
+
+  </style>
+</head>
+<!-- some issue to address
+  1. When window sizing is small, the bg image will shrink, responsive design
+  2. How to handle when can't find exact sizing from Figma, exact color code from Figma
+  3. The mix blend mode lighten gives different effect from what is shown in Figma
+-->
+<body>
+  <div class="container w-96 h-screen text-white bg-gradient-to-b from-black via-gray-600 to-black">
+
+    <!-- using bg-contain due to the size of w-96 is not same as the size of the img
+         blend-darken is from external library tailwindcss-blend-mode -->
+    <div class="bg-img bg-center bg-contain bg-no-repeat w-96 h-full blend-darken">
+    </div>
+    <div class="flex flex-col fixed w-80 h-auto top-10 left-4 items-start">
+      <h3 class="text-3xl font-bold">Building a Strong Church is possible!</h3>
+      <div class="my-4 text-xl">
+        Programmes designed to inspire, train and equip church leaders all over the world.
+      </div>
+    </div>
+    <!-- text xl has some diff with original size which is 1.25rem font size, 2rem line height-->
+    <button class="fixed left-6 bottom-10 px-5 py-2 font-medium text-xl border-2 border-solid rounded-3xl text-center">Learn More</button>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://use.typekit.net/jne6owq.css" rel="stylesheet" />
+  <link href="https://use.typekit.net/ysl7mjk.css" rel="stylesheet" />
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/6f16ae1eee.js" crossorigin="anonymous"></script>
+
+  <style>
+    body {
+      /* font-family: proxima-nova, sans-serif; */
+      font-family: aktiv-grotesk, sans-serif;
+    }
+
+    .container {
+      position: absolute;
+      width: 375px;
+      height: 624px;
+      left: 0px;
+      top: 0px;
+
+      background: linear-gradient(180deg, #21252C 11.82%, rgba(0, 0, 0, 0) 56.3%, #21252C 96.38%);
+      color: #FFFFFF
+    }
+
+
+    .container-img {
+
+      position: absolute;
+      width: 375px;
+      height: 484px;
+      left: 0;
+      top: calc(50% - 484px/2 + 12px);
+      /*       left: 0;
+      top: 81; */
+      background: url("5E.png");
+      mix-blend-mode: darken;
+      overflow: hidden;
+    }
+
+    .container-flex {
+      position: absolute;
+      width: 327px;
+      height: 168px;
+      left: 24px;
+      top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+    }
+
+    .container-title {
+      font-family: Aktiv Grotesk;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 40px;
+
+      /*       flex-grow: 0;
+      order: 0; */
+    }
+
+    .container-body {
+      font-family: Aktiv Grotesk;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 24px;
+
+      /*       flex-grow: 0;
+      order: 1; */
+    }
+
+    .container-button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 8px 20px;
+
+      position: absolute;
+      /*       width: 147px;
+      height: 48px;
+      left: 24px; */
+      bottom: 42px;
+
+
+      font-family: Aktiv Grotesk;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 32px;
+      border: 2px solid;
+      border-radius: 24px;
+      text-align: center;
+      margin: 0px 16px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="container-img">
+    </div>
+    <div class="container-flex">
+      <h3 class="container-title">Building a Strong Church is possible!</h3>
+      <div class="container-body">
+        Programmes designed to inspire, maintain and equip church leaders all over the world.
+      </div>
+    </div>
+    <button class="container-button">Learn More</button>
+  </div>
+
+</body>
+
+</html>
