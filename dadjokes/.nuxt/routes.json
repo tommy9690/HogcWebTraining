@@ -1,0 +1,30 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/Users/macbook_01/Desktop/HOGC IT Ministry/HogcWebTraining/dadjokes/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_3e2d92fa"
+  },
+  {
+    "name": "Jokes",
+    "path": "/Jokes",
+    "component": "/Users/macbook_01/Desktop/HOGC IT Ministry/HogcWebTraining/dadjokes/pages/Jokes/index.vue",
+    "chunkName": "pages/Jokes/index",
+    "_name": "_6347f6f8"
+  },
+  {
+    "name": "Jokes-id",
+    "path": "/Jokes/:id",
+    "component": "/Users/macbook_01/Desktop/HOGC IT Ministry/HogcWebTraining/dadjokes/pages/Jokes/_id/index.vue",
+    "chunkName": "pages/Jokes/_id/index",
+    "_name": "_12518522"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/macbook_01/Desktop/HOGC IT Ministry/HogcWebTraining/dadjokes/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_5de56dbf"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "AppHeader": {
+    "description": "Auto imported from components/AppHeader.vue"
+  },
+  "LazyAppHeader": {
+    "description": "Auto imported from components/AppHeader.vue"
+  },
+  "Joke": {
+    "description": "Auto imported from components/Joke.vue"
+  },
+  "LazyJoke": {
+    "description": "Auto imported from components/Joke.vue"
+  },
+  "SearchJokes": {
+    "description": "Auto imported from components/SearchJokes.vue"
+  },
+  "LazySearchJokes": {
+    "description": "Auto imported from components/SearchJokes.vue"
+  }
+}
