@@ -1,0 +1,29 @@
+[
+  {
+    "name": "_tailwind",
+    "path": "/_tailwind",
+    "component": "/Users/macbook_01/Desktop/HOGC IT Ministry/HogcWebTraining/lesson-02/lesson-02/node_modules/@nuxtjs/tailwindcss/lib/ui/pages/index.vue",
+    "_name": "_c700eff0"
+  },
+  {
+    "name": "hello",
+    "path": "/hello",
+    "component": "/Users/macbook_01/Desktop/HOGC IT Ministry/HogcWebTraining/lesson-02/lesson-02/pages/hello.vue",
+    "chunkName": "pages/hello",
+    "_name": "_62a04466"
+  },
+  {
+    "name": "lesson2",
+    "path": "/lesson2",
+    "component": "/Users/macbook_01/Desktop/HOGC IT Ministry/HogcWebTraining/lesson-02/lesson-02/pages/lesson2.vue",
+    "chunkName": "pages/lesson2",
+    "_name": "_f7bcc396"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/macbook_01/Desktop/HOGC IT Ministry/HogcWebTraining/lesson-02/lesson-02/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_5739edcd"
+  }
+]
